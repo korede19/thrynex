@@ -1,0 +1,54 @@
+.pgContain {
+  padding: 80px 200px;
+  background-color: #f5f5f5;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+}
+
+.colOne {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.texts h6 {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.texts h2 {
+  font-size: 40px;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.texts p {
+  font-size: 16px;
+  line-height: 1.6;
+  width: 70%;
+  color: #616161;
+}
+
+.loaderContain {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.textContain {
+  width: 80%;
+  border-bottom: 1px solid #b6b6b6;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.colTwo {
+  width: 50%;
+}
+
+.colTwo > img {
+  width: 100%;
+  height: 100%;
+}

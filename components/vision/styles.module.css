@@ -1,0 +1,49 @@
+.pgContain {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding: 60px 0px;
+  align-items: center;
+  gap: 20px;
+}
+
+.colOne {
+  width: 50%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.colTwo {
+  width: 50%;
+}
+
+.colTwo h6 {
+  font-size: 16px;
+}
+
+.colTwo h2 {
+  font-size: 40px;
+}
+
+.colTwo p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #616161;
+}
+
+.loaderContain {
+  padding-top: 40px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.textContain p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  color: #222;
+}

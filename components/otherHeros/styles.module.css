@@ -1,0 +1,32 @@
+.heroContain {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroContain h1 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 1;
+}
+
+.heroContain p {
+  color: #fff;
+}
+
+.heroContain p > a {
+  color: #d5d5d5;
+  text-decoration: none;
+  transition: border-bottom 1s ease, color 1s ease;
+}
+
+.heroContain p > a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  transition: border-bottom 1s linear, color 1s ease;
+}

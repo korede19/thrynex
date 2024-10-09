@@ -1,0 +1,60 @@
+.pageContainer {
+  background-image: url("../../public/assets/section-bg-7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px 80px 80px 80px;
+}
+
+.teamsImage {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.infoContain {
+  position: relative;
+  top: -60px;
+  width: 90%;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 6px 5px 16px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.infoContain:hover {
+  transform: scale(1.03);
+  transition: all 1s ease-in-out;
+}
+
+.infoContain h2 {
+  font-size: 20px;
+}
+
+.infoContain:hover h2 {
+  color: #bc24f1;
+}
+
+.infoContain p {
+  color: #616161;
+  font-size: 12px;
+}
+
+.swiper-pagination-bullet {
+  background: #ffffff;
+  width: 40px;
+  height: 16px;
+  opacity: 0.7;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background: #bc24f1;
+  transform: scale(1.2);
+  opacity: 1;
+}
+.swiper-slide {
+  will-change: auto;
+}

@@ -1,0 +1,8 @@
+.pgContain {
+  width: 70%;
+  margin: auto;
+  padding: 60px 0px 60px 0px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 30px;
+}

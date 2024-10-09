@@ -1,0 +1,118 @@
+.pageContainer {
+  width: 100%;
+  padding: 100px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.headerText {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.headerText h6 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.headerText h2 {
+  font-size: 40px;
+  line-height: 1;
+}
+
+.sectionContain {
+  display: flex;
+}
+
+.colOne {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.colTwo {
+  width: 40%;
+  background-image: url("../../public/assets/tri-2.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.colCard {
+  display: flex;
+  padding: 30px;
+  border-radius: 10px;
+  gap: 20px;
+  cursor: pointer;
+  color: #bc24f1;
+  box-shadow: 6px 5px 30px 0px rgba(0, 0, 0, 0.12);
+}
+
+.colCard:hover {
+  background-color: #110445;
+  color: #fff;
+  transition: background 1s ease;
+}
+
+.colCard2 {
+  display: flex;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  gap: 20px;
+  box-shadow: 6px 5px 30px 0px rgba(0, 0, 0, 0.12);
+  position: relative;
+  color: #bc24f1;
+  left: -50px;
+}
+
+.colCard2:hover {
+  background-color: #110445;
+  color: #fff;
+  transition: background 1s ease;
+}
+
+.colCard3 {
+  display: flex;
+  padding: 30px;
+  border-radius: 10px;
+  gap: 20px;
+  cursor: pointer;
+  box-shadow: 6px 5px 30px 0px rgba(0, 0, 0, 0.12);
+  position: relative;
+  right: -50px;
+  color: #bc24f1;
+}
+
+.colCard3:hover {
+  background-color: #110445;
+  color: #fff;
+  transition: background 1s ease;
+}
+
+.colThree {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.otherTexts {
+  color: #2d2d2d;
+}
+
+.colCard:hover .otherTexts {
+  color: #fff;
+}
+
+.colCard2:hover .otherTexts {
+  color: #fff;
+}
+
+.colCard3:hover .otherTexts {
+  color: #fff;
+}

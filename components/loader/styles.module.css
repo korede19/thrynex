@@ -1,0 +1,21 @@
+.loaderContainer {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.progressBar {
+  height: 5px; /* Height of the progress bar */
+  border-radius: 0px 20px 20px 0px;
+  background-color: #bc24f1; /* Color of the progress line */
+  transition: width 0.05s linear; /* Smooth progress animation */
+}
+
+.text {
+  font-size: 10px;
+  color: #333;
+}

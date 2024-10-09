@@ -1,0 +1,68 @@
+.pageContain {
+  max-width: 80%;
+  margin: auto;
+  box-shadow: 6px 5px 30px 0px rgba(0, 0, 0, 0.12);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  top: -60px;
+  z-index: 99;
+  border-radius: 15px;
+}
+
+.pageContainer {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  justify-content: center;
+}
+
+.aboutContent {
+  padding: 80px 100px;
+  display: flex;
+  background-color: #fff;
+  gap: 20px;
+  align-items: center;
+  margin: auto;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.textContent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.textContent p {
+  font-size: 16px;
+  width: 80%;
+  font-weight: 700;
+}
+
+.textContent h2 {
+  font-size: 38px;
+  line-height: 46px;
+  width: 80%;
+}
+.textWord {
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+  font-size: 18px !important;
+  width: 80%;
+}
+
+.textContent h3 {
+  font-size: 30px;
+  background-color: #f5f5f5;
+  width: 80%;
+  line-height: 46px;
+  border-left: 2px solid #bc24f1;
+  padding: 40px;
+}
+
+.imageAll {
+  width: 50%;
+  background-image: url("../../public/assets/try-12.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

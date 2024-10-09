@@ -1,0 +1,43 @@
+.pgContain {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 60px 0px;
+}
+
+.colOne {
+  width: 50%;
+}
+
+.colTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.colTwo h6 {
+  font-size: 14px;
+}
+.colTwo h2 {
+  font-size: 40px;
+  line-height: 1;
+  width: 70%;
+}
+
+.colTwo p {
+  font-size: 16px;
+  width: 70%;
+  line-height: 1.7;
+  color: #616161;
+}
+
+.colTwo h3 {
+  padding: 20px 30px;
+  background-color: #f5f5f5;
+  width: 70%;
+  border-left: 2px solid #bc24f1;
+  font-size: 30px;
+  line-height: 1.2;
+}

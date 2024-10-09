@@ -1,0 +1,73 @@
+.pgContain {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.colOne {
+  width: 50%;
+}
+
+.colOne img {
+  width: 100%;
+  height: 100%;
+}
+
+.colTwo {
+  width: 50%;
+  padding: 40px 0px;
+}
+
+.textContain {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.textContain h6 {
+  font-size: 14px;
+}
+
+.textContain h1 {
+  font-size: 40px;
+  line-height: 1;
+}
+
+.textContain p {
+  font-size: 16px;
+  color: #616161;
+  width: 80%;
+}
+
+.iconContain {
+  margin-top: 20px;
+}
+
+.contactItems {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0px;
+}
+
+.icon {
+  color: #bc24f1;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.items h3 {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.items p {
+  font-size: 16px;
+  color: #616161;
+}

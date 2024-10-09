@@ -1,0 +1,87 @@
+.slider {
+  position: relative;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  height: 700px; /* Adjust height as needed */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+}
+
+.innerContain {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: auto;
+}
+
+.swiper-slide {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
+
+.swiper-slide {
+  margin: 0;
+  padding: 0;
+}
+
+.innerContain p {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.innerContain h1 {
+  font-size: 75px;
+  line-height: 1;
+  width: 80%;
+}
+
+.btnOne {
+  background-color: #bc24f1;
+  padding: 10px 30px;
+  border: 1px solid #bc24f1;
+  text-transform: capitalize;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  font-family: unset;
+  border-radius: 3px;
+}
+
+.heroBtn {
+  display: flex;
+  gap: 20px;
+}
+
+.btnTwo {
+  background-color: transparent;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  text-transform: capitalize;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  font-family: unset;
+  border-radius: 3px;
+}
+
+.btnOne:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+  transition: all 0.5s ease-in;
+}
+
+.btnTwo:hover {
+  background-color: #fff;
+  color: #000;
+  transition: all 0.5s ease-in;
+}

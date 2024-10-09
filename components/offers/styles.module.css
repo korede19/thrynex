@@ -1,0 +1,40 @@
+.bgContain {
+  background-image: url("../../public/assets/section-bg-7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 100px 0px 150px 0px;
+  z-index: 1;
+}
+
+.pageContain {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.pageText h6 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pageText h2 {
+  font-size: 40px;
+  width: 50%;
+  margin: auto;
+  line-height: 1.3;
+}
+
+.pageText p {
+  font-size: 16px;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  justify-content: center;
+  gap: 80px 40px;
+}

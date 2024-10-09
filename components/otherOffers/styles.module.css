@@ -1,0 +1,48 @@
+.pageContain {
+  width: 100%;
+  display: flex;
+}
+
+.colOne {
+  width: 50%;
+  background-image: url("../../public/assets/What-we-offer-1.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.colTwo {
+  width: 50%;
+  padding: 80px;
+  background-color: #0c003a;
+}
+
+.colTwo h2 {
+  font-size: 40px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.colTwo p {
+  color: #dddfe1;
+  line-height: 1.7;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.textContain {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0px !important;
+}
+
+.textContain p {
+  padding-bottom: 0px;
+}
+
+.textContain > div {
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+}

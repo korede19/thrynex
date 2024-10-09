@@ -1,0 +1,49 @@
+.pageContainer {
+  display: flex;
+}
+
+.colOne {
+  width: 50%;
+  background-image: url(../../public/assets/Our-Benefits.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.colTwo {
+  width: 50%;
+  background-color: #0c003a;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 100px 60px;
+}
+
+.colTwo h6 {
+  font-size: 14px;
+}
+
+.colTwo h2 {
+  font-size: 36px;
+  width: 70%;
+  line-height: 1.2;
+}
+.colTwo p {
+  color: #dddfe1;
+  font-size: 17px;
+  font-weight: 400;
+  width: 80%;
+  line-height: 1.6;
+}
+
+.listText {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.iconBox {
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+}
