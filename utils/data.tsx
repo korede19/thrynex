@@ -1,4 +1,7 @@
+import Analytics from "@/svg/analytics";
 import Arrow from "@/svg/arrow";
+import Balance from "@/svg/balance";
+import Business from "@/svg/business";
 import Customer from "@/svg/customer";
 import Digital from "@/svg/digital";
 import Growth from "@/svg/growth";
@@ -7,8 +10,10 @@ import Improve from "@/svg/improve";
 import Location from "@/svg/location";
 import Mail from "@/svg/mail";
 import Mark from "@/svg/mark";
+import MoneyBag from "@/svg/moneybag";
 import Organization from "@/svg/orgainzation";
 import Phone from "@/svg/phone";
+import Rocket from "@/svg/rocket";
 import Target from "@/svg/target";
 
 export const menuLinks = [
@@ -18,14 +23,20 @@ export const menuLinks = [
   },
   {
     title: "OUR SERVICES",
-    link: "/",
+    link: "#",
     subLinks: [
       {
         title: "BUSSINESS CONSULTATION SERVICES",
         link: "/business-consultation-services",
       },
-      { title: "SEO Optimization", link: "/services/seo-optimization" },
-      { title: "Graphic Design", link: "/services/graphic-design" },
+      {
+        title: "BUSINESS EMPOWERMENT AND PARTNERSHIP",
+        link: "/business-empowerment-partnership",
+      },
+      {
+        title: "BUSINESS DIGITAL SOLUTION",
+        link: "/business-digital-solutions",
+      },
     ],
   },
   {
@@ -287,19 +298,19 @@ export const partnerUs = [
 
 export const tabsHeadOne = [
   {
-    icon: <Growth />,
+    icon: <Business />,
     title: "Business Consulting",
   },
   {
-    icon: <Growth />,
+    icon: <MoneyBag />,
     title: "Market Analysis",
   },
   {
-    icon: <Growth />,
+    icon: <Analytics />,
     title: "Management Consulting",
   },
   {
-    icon: <Growth />,
+    icon: <Rocket />,
     title: "Tech Integration",
   },
   {
@@ -307,7 +318,7 @@ export const tabsHeadOne = [
     title: "Growth Partnerships",
   },
   {
-    icon: <Growth />,
+    icon: <Balance />,
     title: "Advisory Services",
   },
 ];
@@ -342,5 +353,213 @@ export const tabsPannelOne = [
     image: "/assets/businessConsulting.webp",
     title: "Advisory Services",
     text: "Our Advisory Services are crafted to guide you with strategic consulting and professional insights. We focus on providing solutions that align with your company’s goals, enhancing management practices and strategy development for impactful organizational progress.",
+  },
+];
+
+export const ourPledge = [
+  {
+    icon: <Mark />,
+    text: "Collaborative strategies for mutual growth.",
+  },
+  {
+    icon: <Mark />,
+    text: "Unmatched professionalism and ethical consulting.",
+  },
+  {
+    icon: <Mark />,
+    text: "A commitment to innovation and business solutions.",
+  },
+  {
+    icon: <Mark />,
+    text: "Tailored advisory services that understand your market and business needs.",
+  },
+];
+
+export const someBenefits = [
+  {
+    icon: <Mark />,
+    text: "Creating partnerships that align with your core values and business principles.",
+  },
+  {
+    icon: <Mark />,
+    text: "Harnessing collaborative dynamics to expand your market reach and impact.",
+  },
+  {
+    icon: <Mark />,
+    text: "Accessing a supportive network that elevates your business ambitions.",
+  },
+];
+
+export const tabsHeadTwo = [
+  {
+    icon: <Business />,
+    title: "Strategic Consulting",
+  },
+  {
+    icon: <MoneyBag />,
+    title: "Growth Bootcamp",
+  },
+  {
+    icon: <Analytics />,
+    title: "Leadership Empowerment",
+  },
+  {
+    icon: <Rocket />,
+    title: "Tech Advancement",
+  },
+  {
+    icon: <Growth />,
+    title: "Collaborative Growth",
+  },
+  {
+    icon: <Balance />,
+    title: "Innovative Practices",
+  },
+];
+
+export const tabsPannelTwo = [
+  {
+    image: "/assets/businessConsulting.webp",
+    title: "Strategic Consulting",
+    text: "We give you the kind of help you’d get from expensive consultants, but without the big cost. Our advice is specific, practical, and aimed at what your business needs. We help you figure out the best steps to take for your business, ensuring strategic, cost-effective, and sustainable growth.",
+  },
+  {
+    image: "/assets/businessConsulting.webp",
+    title: "Growth Bootcamp",
+    text: "In our Bootcamp, we give real exercises, case studies and useful tools that are made just for your business. We show you how to use these tools to come up with plans that really work, driving innovation and growth effectively. It’s all about learning and putting those ideas into action, transforming challenges into opportunities.",
+  },
+  {
+    image: "/assets/businessConsulting.webp",
+    title: "Leadership Empowerment",
+    text: "We have special programs and coaching for leaders to enhance leadership qualities. Our workshops help them learn essential skills and techniques on how to make their teams work better together. We focus on communication, motivation, and collaboration. We teach leaders how to get their teams to perform well and stay involved, fostering a positive and productive work environment.",
+  },
+  {
+    image: "/assets/businessConsulting.webp",
+    title: "Tech Advancement",
+    text: "Integrate advanced technological solutions, propelling operations into the digital era. Stay ahead in the fast world of technology. We prioritize maintaining your business agile and innovative. By covering the latest tech trends, we boost efficiency, streamline your operations and open doors to new growth options, positioning your company as a leader in your industry.",
+  },
+  {
+    image: "/assets/businessConsulting.webp",
+    title: "Collaborative Growth",
+    text: "Champion collaborative growth, building robust partnerships to fuel your business journey. Cultivate alliances that enhance capacity for innovation and sustainable expansion. Our strategy involves connecting you with key players and resources, fostering a network that supports mutual success. We emphasize shared goals and synergistic efforts to drive collective progress and market impact.",
+  },
+  {
+    image: "/assets/businessConsulting.webp",
+    title: "Innovative Practices",
+    text: "Infuse operations with creative, effective methodologies. Empower your business with tools and strategies for continuous evolution and market leadership. We introduce cutting-edge practices and innovative thinking to revitalize your business approach, ensuring adaptability and resilience. Infuse operations with creative, effective methodologies. Empower your business with tools and strategies for continuous evolution and market leadership. We introduce cutting-edge practices and innovative thinking to revitalize your business approach, ensuring adaptability and resilience. By staying ahead of industry trends, we help position your company as a market pioneer.By staying ahead of industry trends, we help position your company as a market pioneer.",
+  },
+];
+
+export const commitment = [
+  {
+    icon: <Mark />,
+    text: "Unwavering dedication to professionalism and support, establishing robust business networks.",
+  },
+  {
+    icon: <Mark />,
+    text: "A promise of excellence, delivering consistent service and flexibility for evolving company needs.",
+  },
+  {
+    icon: <Mark />,
+    text: "Adopting a comprehensive approach, we spur innovation within organizations, broadening the horizons of community engagement.",
+  },
+];
+
+export const weThrive = [
+  {
+    icon: <Mark />,
+    text: "Digital Expertise: Count on our wide-ranging solutions to guide you through the digital realm, propelling your business ahead.",
+  },
+  {
+    icon: <Mark />,
+    text: "Customized Approach: We tailor each strategy to fit your unique business model, guaranteeing effective outcomes.",
+  },
+  {
+    icon: <Mark />,
+    text: "Enduring Alliances: Forge lasting partnerships for sustained success.",
+  },
+];
+
+export const tabsHeadThree = [
+  {
+    icon: <Business />,
+    title: "Website Design",
+  },
+  {
+    icon: <MoneyBag />,
+    title: "Digital Marketing",
+  },
+  {
+    icon: <Analytics />,
+    title: "UI/UX Design",
+  },
+  {
+    icon: <Rocket />,
+    title: "Content Writing",
+  },
+  {
+    icon: <Growth />,
+    title: "Graphics Design",
+  },
+  {
+    icon: <Balance />,
+    title: "Data Analytics",
+  },
+  {
+    icon: <Balance />,
+    title: "Cyber Security",
+  },
+];
+
+export const tabsPannelThree = [
+  {
+    image: "/assets/businessConsulting.webp",
+    title: "Website Design",
+    text: "Our team focuses on creating websites that not only look professional but are incredibly easy to navigate, perfectly capturing your brand’s spirit as well as blending stunning visuals with data-driven insights, turning casual visitors into loyal customers.",
+  },
+  {
+    image: "/assets/businessConsulting.webp",
+    title: "Digital Marketing",
+    text: "Digital Marketing Services Boost Your Online Brand Presence: Crafting digital marketing strategies to sharpen your brand’s edge online. In today’s crowded digital landscape, mere presence isn’t enough. You need to dominate. Our laser-focused digital marketing strategies don’t just sharpen your brand’s edge – they ignite a blazing online firestorm that attracts, engages, and converts.",
+  },
+  {
+    image: "/assets/businessConsulting.webp",
+    title: "UI/UX Design",
+    text: "Creating intuitive and visually compelling user interfaces customized to improve user experience. Say goodbye to clunky interfaces and confusing navigation. Our UI/UX design services go beyond aesthetics, meticulously crafting experiences that are intuitive, seamless, and a joy to use. We delve into your users’ needs, analyze their behaviors, and then plan every click, swipe, and tap to tell a compelling story – your brand story – through their interaction. The result? Websites and apps that not only look stunning but become cherished tools, driving engagement and brand loyalty like never before.",
+  },
+  {
+    image: "/assets/businessConsulting.webp",
+    title: "Elevate Your Brand with Our Content Writing Magic",
+    text: "Give your brand a lift with our content that’s all about engaging and turning heads. Forget stale copy and robotic prose. We’re the alchemists of words, transforming your brand message into engaging narratives that spark imaginations and ignite connections. Whether it’s captivating blog posts that draw readers in, SEO-rich articles that climb the search engine ranks, or website copy that speaks directly to your audience’s desires, we will weave your brand story into every line. ",
+  },
+  {
+    image: "/assets/businessConsulting.webp",
+    title: "Graphics Design Magic: Give Your Brand a Visual Boost",
+    text: "Elevate your brand’s look with our wide range of design talents. Our graphics design magic goes beyond aesthetics, unlocking your brand’s unique personality and amplifying it across all channels. From eye-catching logos that leave a lasting impression to social media graphics that spark conversation, we create a unified visual language that tells your brand story powerfully and consistently.",
+  },
+  {
+    image: "/assets/businessConsulting.webp",
+    title: "Data Analytics Unleashed: Turning Data into Decisions",
+    text: "Unlock the power of your data to make smarter, informed business choices. We’re your strategic roadmap architects. We translate complex analytics into actionable insights that directly impact your bottom line. Whether it’s streamlining your supply chain, optimizing resource allocation, or identifying your most profitable customer segments, we deliver data-driven recommendations that fuel growth and innovation. And because we believe in transparency, we’ll guide you through every step of the process, ensuring you understand the “why” behind every decision you make. ",
+  },
+  {
+    image: "/assets/businessConsulting.webp",
+    title: "Cybersecurity Guard: Shielding Your Digital World",
+    text: "Fortify your digital treasures with our robust cybersecurity solutions. We’re not just tech wizards, we’re trusted partners. We tailor our solutions to your unique needs, constantly monitoring your systems, staying ahead of evolving threats, and keeping you informed every step of the way. With our proactive approach and around-the-clock vigilance, you can focus on what you do best, leaving the digital defense to us. ",
+  },
+];
+
+export const weDedicate = [
+  {
+    icon: <Mark />,
+    text: "Reliable Expertise: Count on us for unwavering professionalism and a steadfast commitment to building solid relationships.",
+  },
+  {
+    icon: <Mark />,
+    text: "Excellence as a Norm: We're devoted to always bringing top-notch service and outstanding results.",
+  },
+  {
+    icon: <Mark />,
+    text: "Innovation-Forward Mindset: Expect from us creative, forward-thinking strategies that propel your business ahead.",
   },
 ];

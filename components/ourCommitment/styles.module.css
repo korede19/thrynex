@@ -1,0 +1,55 @@
+.pgContain {
+  display: flex;
+}
+
+.colOne {
+  width: 50%;
+  background-image: url("../../public/assets/Our-Commitment.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.colTwo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 80px;
+  background-color: #0c003a;
+}
+
+.colTwo h6 {
+  font-size: 14px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.colTwo h2 {
+  font-size: 40px;
+  line-height: 1;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.colTwo p {
+  font-size: 16px;
+  line-height: 1.7;
+  width: 70%;
+  color: #dddfe1;
+}
+
+.listings {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contentLists > div {
+  color: #fff;
+}
+
+.contentLists {
+  display: flex;
+  gap: 20px;
+}

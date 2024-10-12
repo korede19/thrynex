@@ -1,0 +1,47 @@
+.pageContain {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 0px 60px 0px;
+}
+
+.colOne {
+  width: 50%;
+}
+
+.colOne img {
+  width: 100%;
+  height: 100%;
+}
+
+.colTwo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.colTwo h6 {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.colTwo h2 {
+  font-size: 40px;
+  line-height: 1;
+}
+
+.colTwo p {
+  width: 80%;
+  color: #616161;
+  line-height: 1.7;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+}

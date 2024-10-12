@@ -1,0 +1,70 @@
+.pgContain {
+  width: unset;
+  padding: 80px;
+}
+
+.textContain {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.textContain h6 {
+  font-size: 14px;
+}
+
+.textContain h2 {
+  font-size: 40px;
+}
+
+.textContain p {
+  font-size: 16px;
+  color: #616161;
+}
+
+.otherComponents {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ourPossibilities {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  box-shadow: 6px 5px 16px 0 rgba(0, 0, 0, 0.15);
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #0c003a;
+  border-radius: 10px;
+  color: #fff;
+}
+.ourPossibilities h6 {
+  font-size: 14px;
+}
+
+.ourPossibilities h2 {
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+.ourPossibilities p {
+  padding-top: 20px;
+  color: #dfdfdf;
+  line-height: 1.7;
+}
+
+.ourPossibilities button {
+  width: 180px;
+  margin: auto;
+  border: 0px;
+  padding: 15px 30px;
+  color: #fff;
+  font-family: unset;
+  font-size: 15px;
+  border-radius: 4px;
+  background-color: #bc24f1;
+  cursor: pointer;
+}

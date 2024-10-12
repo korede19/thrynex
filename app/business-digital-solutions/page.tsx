@@ -1,25 +1,25 @@
-import BusinessSolutions from "@/components/businessSolution";
+import BusinessSolutions2 from "@/components/businessSolution2";
+import Expertise from "@/components/expertise";
 import Footer from "@/components/foooter";
 import Header from "@/components/header";
-import Navigate from "@/components/navigate";
 import OtherHeros from "@/components/otherHeros";
 import OurBusiness from "@/components/ourBusiness";
-import PartnerUs from "@/components/partner";
-import Pledge from "@/components/pledge";
+import OurDedication from "@/components/ourDedication";
+import Thrive from "@/components/thriving";
 import React from "react";
 
-const Consultation = () => {
+const BusinessSolutions = () => {
   return (
     <div>
       <Header />
       <OtherHeros
-        title="Business Consultation Services"
-        image="/assets/teambanner.png"
+        title="Business Digital Solutions"
+        image="/assets/Our-Team5.png"
       />
-      <Navigate />
-      <PartnerUs />
-      <BusinessSolutions />
-      <Pledge />
+      <Expertise />
+      <Thrive />
+      <BusinessSolutions2 />
+      <OurDedication />
       <OurBusiness
         titleOne="_DIVE INTO THE WORLD OF POSSIBILITIES_"
         titleTwo="Unlock Your Business Potential — Free Consultation Awaits!"
@@ -30,4 +30,4 @@ const Consultation = () => {
   );
 };
 
-export default Consultation;
+export default BusinessSolutions;
