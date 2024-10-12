@@ -563,3 +563,169 @@ export const weDedicate = [
     text: "Innovation-Forward Mindset: Expect from us creative, forward-thinking strategies that propel your business ahead.",
   },
 ];
+
+export const danielProfile = [
+  {
+    image: "/assets/daniel.png",
+    fullName: "Daniel Kumuyi",
+    position1: "Co-founder & Chief Executive Officer",
+    position2: "Position: Co-founder",
+    responsibility: "Resopnsibility: Chief Executive Officer",
+    expertise: "Expertise: Production Planner",
+    email: "Gmail: kumuyidaniel1@gmail.com",
+    phone: "Phone: +358465356731",
+    link: "https://www.linkedin.com/in/kumuyi-daniel-o",
+  },
+];
+
+export const danielAll = [
+  {
+    titleOne: "Personal Experience",
+    titleTwo: "Early Years",
+    titleThree: "Early Career",
+    textOne:
+      "Since beginning his career at ThryNex Company as a Production Planner and CEO, Daniel’s contributions to teamwork, efficiency, and problem-solving have been interwoven throughout the organization. Production scheduling, order accuracy, inventory management, and other duties were listed; they weren’t just jobs; they were benchmarks in a constantly changing environment. It was a sign of the dynamic and significant nature of the work that being involved in the creation of production processes and supply capability planning was more than just a role. Daniel has played a pivotal role in the expansion of ThryNex Company by providing a transformative experience that has changed people’s perspectives on the production process. He regularly promotes a range of career pathways, skill enhancement, and ideas to advance global technology.",
+    textTwo:
+      "In retrospect, his professional identity has been greatly shaped by his experiences as a Production Manager, Warehouse Manager, and Production Team Leader throughout the early stages of his career. His goals for the future are to continue improving his leadership skills, to maintain the highest standards of operational management, and to find new and creative ways to improve the procedures used in manufacturing and warehousing.",
+    textThree:
+      "His formative years have been filled with learning and development. Daniel has developed into a versatile, meticulous professional that can thrive in a fast-paced work environment, from mastering manufacturing procedures to honing his communication abilities in both Basic Finnish and English. Daniel is eager to contribute to the inventive and collaborative attitude that characterizes the corporate culture, along with the continual learning opportunities, as he navigates his career at ThryNex Limited.",
+  },
+];
+
+export const benProfile = [
+  {
+    image: "/assets/ben.jpg",
+    fullName: "Benjamin Akinyemi",
+    position1: "Co-Founder & Chief Operating officer",
+    position2: "Position: Chief Operating Officer",
+    responsibility: "Responsibility: Business Development",
+    expertise: "Expertise: Design Thinking Expert",
+    email: "Email: benjaminakinz81@gmail.com",
+    phone: "Phone: +234 810 391 2739",
+    link: "https://linkedin.com/in/benjamin-akinyemi",
+  },
+];
+
+export const benAll = [
+  {
+    titleOne: "Personal Experience",
+    titleTwo: "Early Years",
+    titleThree: "Early Career",
+    textOne:
+      "Since joining ThryNex, Benjamin has been determined to make a mark in the dynamic world of business consulting. He drove the company with an emphasis on soft skills, particularly leadership and self-development. In Benjamin’s time as Vice President of the company, the company has experienced explosive growth in size and revenue – all while developing a culture that fosters engaged employees around innovation. Benjamin’s impact on ThryNex was profound. His leadership style is characterized by collaboration, empathy, and a genuine commitment to empowering others. He is a frequent speaker on creativity and creative thinking, for global innovation.",
+    textTwo:
+      "He is a services industry veteran with a diversified wealth of expertise that includes instructional design, business development, and design thinking. He is responsible for all the operations, delivery, goal setting, talent recruitment, and management. He is responsible for setting and aligning the operations of the company, enabling growth.",
+    textThree:
+      "Prior to joining ThryNex, he worked with instructors and coaches as an instructional designer, where he developed several education and training courses and job aids, he managed an entire educational course development from start to finish where he was the project manager. He has taken projects as a UI/UX Designer with companies, where he has demonstrated his expertise in creating user-centered designs that are both aesthetically pleasing and functionally effective. His work has consistently helped companies improve their user engagement and achieve their business goals. In his enthusiasm for creativity and innovation for businesses and companies, he pursued Design Thinking, which became his prolific and proficient offer to the business world.",
+  },
+];
+
+export const worshipProfile = [
+  {
+    image: "/assets/worship.jpg",
+    fullName: "Worship Agbonifo",
+    position1: "Creative Lead, Thrynex",
+    position2: "Position: Creative Lead, Thrynex",
+    responsibility: "Responsibility: Creative Development",
+    expertise: "Expertise: E-learning Experience Design",
+    email: "Email: worshipagbonifo@gmail.com",
+    phone: "Phone: +2348142995885",
+    link: "https://www.linkedin.com/in/worshipagbonifo",
+  },
+];
+
+export const worshipAll = [
+  {
+    titleOne: "Personal Experience",
+    titleTwo: "Early Years",
+    titleThree: "Early Career",
+    textOne:
+      "In this journey, I have seen firsthand how integrating advanced LMS, employing gamification strategies, and customizing content can transform the learning experience. But what remains most fulfilling is the feedback from learners and educators alike – the stories of engagement, achievement, and transformation. As I continue this path, my goal remains steadfast: to innovate, to understand, and most importantly, to make learning an enriching and accessible experience for all. This isn’t just a job for me; it’s a calling. And every day, every project brings me closer to realizing that dream of a world where education knows no bounds.",
+    textTwo:
+      "My early years have led me to be an accomplished expert in online education enhancement, bringing a rich tapestry of skills I learnt independently when starting out that include advanced LMS development, front-end technology innovation, and gamification strategies. My extensive experience in these domains has positioned me as a leading figure in the transformation of digital learning landscapes.",
+    textThree:
+      "Before embarking on my path as an Online Education Enhancement Expert with ThryNex, my career was rich with diverse experiences that shaped my approach to digital learning. As a Social Media Manager for emerging brands, I mastered the art of digital storytelling and audience engagement. This role sharpened my skills in creating compelling content and understanding the dynamics of online interaction, which later became invaluable in online education.Simultaneously, I explored my passion for graphics design, volunteering for a health initiative. This not only honed my design abilities but also taught me the impact of visual communication in raising awareness and driving change. My journey then evolved into the role of an LMS (Learning Management System) Designer, where I delved into designing effective online learning platforms. This experience was instrumental in shaping my understanding of digital educational content and the importance of user-friendly design in online learning environments.",
+  },
+];
+
+export const fiyinProfile = [
+  {
+    image: "/assets/fiyin.png",
+    fullName: "Fiyinfoluwa Lasaki",
+    position1: "Chief Technology Officer",
+    position2: "Position: Chief Technology Officer",
+    responsibility: "Responsibility: Technological Innovation",
+    expertise: "Expertise: Cybersecurity Analyst",
+    email: "Email: lasaki.fiyinfoluwa@gmail.com",
+    phone: "Phone: +2348147685886",
+    link: "https://linkedin.com/in/fiyinfoluwa-Lasaki",
+  },
+];
+
+export const fiyinAll = [
+  {
+    titleOne: "Personal Experience",
+    titleTwo: "Early Years",
+    titleThree: "",
+    textOne:
+      "Since joining ThryNex, Fiyinfoluwa’s journey has been defined by dynamic collaboration and pivotal contributions to the company’s growth. He has actively engaged in cross-functional tasks and collaborated seamlessly with diverse teams in fostering the overall development of the organization. In the realm of technology, Fiyinfoluwa led initiatives to shape and optimize the company’s infrastructure, achieving significant milestones that propelled ThryNex forward.Being part of a company valuing innovation not only enhanced his professional capabilities but also instilled a deep sense of creativity in contributing to ThryNex’s mission to set industry standards.",
+    textTwo:
+      "Prior to joining ThryNex, he had worked with organizations, coaches, instructors, and entrepreneurs as a virtual assistant, helping them establish an online learning presence, provide consultation services, and resolve challenges related to their Learning Management System. Most recently, he served as the go-to virtual assistant for a holistic medicine company, handling website and course management, and as an LMS expert for a cybersecurity firm. Driven by a strong interest in safeguarding people’s data and assets from threat actors, he has ventured into the realm of cybersecurity, where he strives to protect the confidentiality, integrity, and availability of everyone’s data.",
+    textThree: "",
+  },
+];
+
+export const iffyProfile = [
+  {
+    image: "/assets/iffy.jpeg",
+    fullName: "Oyeyemi Ifeoluwa",
+    position1: "Chief Marketing Officer",
+    position2: "Position: Chief Marketing Officer",
+    responsibility: "Responsibility: Business Strategist",
+    expertise: "Expertise: Digital Marketing",
+    email: "Email: iffykings9436@gmail.com",
+    phone: "Phone: +234 902 282 8014",
+    link: "https://www.linkedin.com/in/ifeoluwa-oyeyemi-6a88b5214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+];
+
+export const iffyAll = [
+  {
+    titleOne: "Personal Experience",
+    titleTwo: "Early Years",
+    titleThree: "Early Career",
+    textOne:
+      "Ever since I strutted into ThryNex, there was one fire in my belly: to blaze a trail in the bustling landscape of marketing. Forget crunching numbers or cold-calling robots; I steered the ship with soft skills as my secret weapon. Leadership development and that je ne sais quoi of self-growth became my mantras. And guess what? My formula worked like a charm. ThryNex made progress under my watch, not just in size and revenue, but in the sheer buzz of an innovative, employee-centric culture. You could practically feel the electricity of engagement crackle in the air! My leadership style? Let’s call it “empowered empathy with a dash of collaboration” I’m a firm believer in building teams that hum like finely tuned orchestras, where everyone shines and innovation is the rockstar. Ifeoluwa does not just sell, he ignites. Remember, in the wild world of marketing, it’s not just about what you say, it’s about how you make people feel. And trust me, I know how to make them feel like they can conquer the world, one campaign at a time.",
+    textTwo:
+      "I am a highly motivated and enthusiastic individual with a strong background in digital marketing. As a digital marketer, I possesses tangible experience in the field and excels in data analysis, which allows me to make informed decisions and optimize marketing strategies for maximum effectiveness. I always thrive in fast-paced, dynamic environments where creativity and adaptability are key.",
+    textThree:
+      "Before I landed at ThryNex, the digital marketing jungle was my playground. I wasn’t just swinging from vine to vine – I was spearheading campaigns across diverse niches, from sleek tech startups to cozy local businesses. Whether it was a global brand or a corner shop, I thrived on understanding their story and crafting strategies that sent their growth charts skyrocketing. This wasn’t just about clicks and conversions, though. My passion stretched beyond metrics. I saw the human faces behind the numbers, the hopes and dreams woven into every business. So, I became not just a campaign conductor, but an empathy amplifier. I listened – really listened – to my clients, understanding their challenges and crafting solutions that were as unique as their fingerprints. But the jungle wasn’t always solo. I built tribes of talented individuals, sharing my digital wisdom. From page design to campaign optimization, I armed them with the tools and tactics to conquer the online world. Witnessing their “aha!” moments fueled my own fire, reminding me that knowledge shared is power unleashed. Then, ThryNex beckoned. It was like finding an oasis in the marketing wilderness, a place where collaboration bloomed and innovation crackled in the air. Here, I could combine my love for understanding human stories with the thrill of pushing boundaries. It’s here, at ThryNex, that my digital adventures truly begin.",
+  },
+];
+
+export const emmaProfile = [
+  {
+    image: "/assets/emmanuel.jpg",
+    fullName: "Ekpenyoung Emmanuel",
+    position1: "Chief Financial Officer",
+    position2: "Position: Chief Financial Officer",
+    responsibility: "Responsibility: Financial Management",
+    expertise: "Expertise: Cybersecurity Analyst",
+    email: "Email: emmanuelekpenyong531@gmail.com",
+    phone: "Phone: +234 802 781 0418",
+    link: "https://www.linkedin.com/in/emmanuel-ekpenyong-7b65941a5",
+  },
+];
+
+export const emmaAll = [
+  {
+    titleOne: "Personal Experience",
+    titleTwo: "Early Years",
+    titleThree: "",
+    textOne:
+      "Emmanuel assumes a pivotal role in Thrynex by directing and managing the organization’s financial operations, orchestrating capital allocation strategies, and instituting streamlined operational processes to facilitate scalable growth. His unwavering dedication to continuous learning and collaborative teamwork is evident through his engagement with diverse teams to successfully execute projects, thereby making substantial contributions to the overarching advancement of the company. Equipped with a formidable set of soft skills, including proficiency in risk management, analytical thinking, strategic planning, and effective communication, Emmanuel draws upon his early experiences in financial market trading to augment and refine these capabilities. Eager to leverage this skill set in the dynamic realm of business, he is poised to contribute significantly to the ongoing development and success of Thrynex.",
+    textTwo:
+      "Preceding his tenure at ThryNex, he cultivated his skills through active engagement in financial market trading, fostering a comprehensive understanding of global economics, and attaining proficiency in the intricacies of the digital financial landscape. This professional journey afforded him valuable insights into risk management, financial analysis and forecasting, and analytical thinking. Motivated by a passion for technology and a relentless pursuit of knowledge, he transitioned his career into cybersecurity, where he acquired fundamental skills in security protocols, asset management, and data security. This strategic shift has enabled him to make substantial contributions towards creating a safer and more secure global environment.",
+    textThree: "",
+  },
+];

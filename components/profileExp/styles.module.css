@@ -1,0 +1,18 @@
+.pgContain {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 60%;
+  margin: auto;
+  padding: 70px 0px 30px 0px;
+}
+
+.pgContain > div h3 {
+  font-size: 25px;
+}
+
+.pgContain > div p {
+  font-size: 16px;
+  color: #616161;
+  line-height: 1.6;
+}
