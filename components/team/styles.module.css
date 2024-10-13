@@ -52,9 +52,15 @@
 
 .swiper-pagination-bullet-active {
   background: #bc24f1;
-  transform: scale(1.2);
+  transform: scale(1.3);
   opacity: 1;
 }
 .swiper-slide {
   will-change: auto;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #222;
 }

@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination, Virtual } from "swiper/modules";
 import Image from "next/image";
 import { ourTeams } from "@/utils/data";
+import Link from "next/link";
 
 const Teams = () => {
   return (
@@ -30,20 +31,22 @@ const Teams = () => {
       >
         {ourTeams?.map((slide, index) => (
           <SwiperSlide key={index} virtualIndex={index}>
-            <div className={styles.teamContainer}>
-              <Image
-                src={slide.image}
-                width={500}
-                height={500}
-                priority
-                className={styles.teamsImage}
-                alt="ourTeams Img"
-              />
-            </div>
-            <div className={styles.infoContain}>
-              <h2>{slide.name}</h2>
-              <p>{slide.position}</p>
-            </div>
+            <Link href={slide.link} className={styles.link}>
+              <div className={styles.teamContainer}>
+                <Image
+                  src={slide.image}
+                  width={500}
+                  height={500}
+                  priority
+                  className={styles.teamsImage}
+                  alt="ourTeams Img"
+                />
+              </div>
+              <div className={styles.infoContain}>
+                <h2>{slide.name}</h2>
+                <p>{slide.position}</p>
+              </div>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>

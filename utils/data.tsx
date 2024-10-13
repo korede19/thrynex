@@ -151,31 +151,37 @@ export const ourTeams = [
     image: "/assets/daniel.png",
     name: "Daniel Kumuyi",
     position: "CO-FOUNDER & CHIEF EXECUTIVE OFFICER",
+    link: "/our-team/daniel-kumuyi",
   },
   {
     image: "/assets/ben.jpg",
     name: "Benjamin Akinyemi",
     position: "CO-FOUNDER & CHIEF OPERATING OFFICER",
+    link: "/our-team/benjamin-akinz",
   },
   {
     image: "/assets/worship.jpg",
     name: "Worship Agbonifo",
     position: "CREATIVE LEAD, THRYNEX",
+    link: "/our-team/worship-agbonifo",
   },
   {
     image: "/assets/fiyin.png",
     name: "Fiyinfoluwa Lasaki",
     position: "CHIEF TECHNOLOGY OFFICER",
+    link: "/our-team/fiyinfoluwa-lasaki",
   },
   {
     image: "/assets/iffy.jpeg",
     name: "Ifeoluwa Oyeyemi",
     position: "CHIEF MARKETING OFFICER",
+    link: "/our-team/oyeyemi-ifeoluwa",
   },
   {
     image: "/assets/emmanuel.jpg",
     name: "Ekpenyong Emmanuel",
     position: "CHIEF FINANCIAL OFFICER",
+    link: "/our-team/ekpenyoung-emmanuel",
   },
 ];
 
