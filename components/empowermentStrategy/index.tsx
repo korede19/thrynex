@@ -69,6 +69,7 @@ const EmpowermentStrategy = () => {
                   title={items.title}
                   index={index}
                   text={items.text}
+                  text2={items.text2}
                 />
               </TabPanel>
             ))}

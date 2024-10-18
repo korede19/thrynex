@@ -3,14 +3,19 @@ import Header from "@/components/header";
 import ProfileExp from "@/components/profileExp";
 import ProfileSingle from "@/components/profileSingle";
 import TeamForm from "@/components/teamForm";
-import { worshipAll, worshipProfile } from "@/utils/data";
+import { ourTeams } from "@/utils/data";
 import React from "react";
 
-const Worship = () => {
+const page = ({ params }: { params: { slug: string } }) => {
+  //   console.log(params.slug);
+  const data = ourTeams?.filter((item) => {
+    return item.id === params.slug;
+  });
+  console.log(data);
   return (
     <div>
       <Header />
-      {worshipProfile?.map((items, index) => {
+      {data[0].data1?.map((items, index) => {
         return (
           <ProfileSingle
             key={index}
@@ -26,7 +31,7 @@ const Worship = () => {
           />
         );
       })}
-      {worshipAll?.map((items, index) => {
+      {data[0].data2?.map((items, index) => {
         return (
           <ProfileExp
             key={index}
@@ -45,4 +50,4 @@ const Worship = () => {
   );
 };
 
-export default Worship;
+export default page;

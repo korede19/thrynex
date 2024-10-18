@@ -6,11 +6,13 @@ const TabSingle = ({
   image,
   title,
   text,
+  text2,
   index,
 }: {
   image: string;
   title: string;
   text: string;
+  text2: string;
   index: number;
 }) => {
   return (
@@ -21,6 +23,8 @@ const TabSingle = ({
       <div className={styles.colTwo}>
         <h2>{title}</h2>
         <p>{text}</p>
+        <br />
+        <p>{text2}</p>
       </div>
     </div>
   );
