@@ -31,5 +31,17 @@
 .textcontain p {
   font-size: 14px;
   width: 60%;
+  text-align: center;
   margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .pgContain {
+    width: unset;
+    margin: 20px;
+    grid-template-columns: 2fr;
+  }
+  .textcontain {
+    margin: 20px;
+  }
 }

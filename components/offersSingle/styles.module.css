@@ -1,5 +1,3 @@
-/* CardFade.module.css */
-
 .cardContainer {
   position: relative;
   width: 100%;
@@ -93,4 +91,7 @@
 .cardContainer:hover .back {
   opacity: 1;
   border-radius: 10px;
+}
+
+@media screen and (max-width) {
 }

@@ -21,20 +21,47 @@
   position: relative;
 }
 
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .link {
   color: #fff;
   text-decoration: none;
   font-size: 12px;
   transition: color 0.3s ease-in-out;
   display: flex;
+  padding: 10px;
   align-items: center;
+  top: 0px;
+  position: relative;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 0;
+  background-color: #bc24f1;
+  transition: height 0.4s ease-in-out;
+}
+
+.link:hover::before {
+  height: 100%;
 }
 
 .hasDropdown:hover .dropdown {
   display: block;
   opacity: 1;
-  transform: translateY(0);
   transition: transform 1s ease-in-out;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
 .hasDropdown:hover .dropdownIcon svg {
@@ -50,7 +77,6 @@
 }
 
 .dropdown {
-  display: none;
   position: absolute;
   top: 100%;
   left: 0;
@@ -63,7 +89,7 @@
   font-size: 13px;
   opacity: 0;
   transform: translateY(-10px);
-  transition: all 1s ease-in-out;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .dropdownLink {
@@ -71,6 +97,24 @@
   color: #fff;
   text-decoration: none;
   padding: 0.5rem 0;
+  font-size: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.dropdownLink::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background-color: #bc24f1;
+  transition: width 0.4s ease-in-out;
+}
+
+.dropdownLink:hover::before {
+  width: 100%;
 }
 
 .headerBtn button {
@@ -87,4 +131,82 @@
   background-color: #bc24f1;
   color: #fff;
   transition: background 0.5s ease-in-out;
+}
+
+.closeSidebar,
+.menuToggle,
+.mobilelogo {
+  display: none;
+}
+
+.menu {
+  display: flex;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .headerContain {
+    padding: 15px 20px;
+  }
+
+  .headerLinks {
+    display: none;
+  }
+
+  .menuToggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .sidebar {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 350px;
+    height: 100%;
+    background-color: rgba(21, 34, 43, 1);
+    z-index: 1000;
+    padding: 20px;
+    transition: left 1s ease;
+  }
+
+  .showSidebar {
+    left: 0;
+  }
+
+  .closeSidebar {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .dropdown {
+    display: block;
+    position: relative;
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .dropdownLink {
+    padding: 0.5rem 1rem;
+  }
+
+  .headerBtn {
+    display: none;
+  }
+
+  .mobilelogo {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .dropdown {
+    transition: unset;
+  }
 }

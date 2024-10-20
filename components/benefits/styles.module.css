@@ -47,3 +47,27 @@
   height: 30px;
   color: #ffffff;
 }
+
+@media screen and (max-width: 768px) {
+  .pageContainer {
+    flex-direction: column;
+    width: unset;
+  }
+
+  .colOne {
+    width: unset;
+    height: 500px;
+  }
+
+  .colTwo {
+    width: unset;
+    padding: 100px 30px;
+  }
+  .colTwo h2 {
+    font-size: 30px;
+    width: unset;
+  }
+  .colTwo p {
+    width: unset;
+  }
+}

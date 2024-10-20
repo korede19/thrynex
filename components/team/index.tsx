@@ -19,8 +19,6 @@ const Teams = () => {
           clickable: true,
         }}
         spaceBetween={40}
-        slidesPerView={4}
-        slidesPerGroup={2}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
@@ -28,6 +26,16 @@ const Teams = () => {
         }}
         speed={1500}
         virtual
+        breakpoints={{
+          768: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+          },
+          1024: {
+            slidesPerView: 4,
+            slidesPerGroup: 2,
+          },
+        }}
       >
         {ourTeams?.map((slide, index) => (
           <SwiperSlide key={index} virtualIndex={index}>

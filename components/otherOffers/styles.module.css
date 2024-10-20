@@ -46,3 +46,17 @@
   height: 30px;
   color: #ffffff;
 }
+
+@media screen and (max-width: 768px) {
+  .pageContain {
+    flex-direction: column;
+  }
+  .colOne {
+    width: unset;
+    height: 232px;
+  }
+  .colTwo {
+    width: unset;
+    padding: 80px 20px;
+  }
+}

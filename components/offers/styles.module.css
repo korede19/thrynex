@@ -28,6 +28,8 @@
 .pageText p {
   font-size: 16px;
   width: 50%;
+  color: #616161;
+  line-height: 1.7;
   margin: auto;
   padding-bottom: 10px;
 }
@@ -37,4 +39,26 @@
   grid-template-columns: 2fr 2fr 2fr;
   justify-content: center;
   gap: 80px 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .pageContain {
+    width: 80%;
+    margin: auto;
+    padding: 0px 20px;
+  }
+
+  .pageText h6 {
+    font-size: 14px;
+  }
+  .pageText h2 {
+    font-size: 30px;
+    width: unset;
+  }
+  .pageText p {
+    width: unset;
+  }
+  .cardsGrid {
+    grid-template-columns: 2fr;
+  }
 }

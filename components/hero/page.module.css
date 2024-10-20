@@ -85,3 +85,27 @@
   color: #000;
   transition: all 0.5s ease-in;
 }
+
+@media screen and (max-width: 768px) {
+  .slider {
+    height: 500px;
+  }
+
+  .innerContain p {
+    font-size: 13px;
+  }
+
+  .innerContain h1 {
+    font-size: 35px;
+    width: unset;
+  }
+
+  .heroBtn {
+    gap: 10px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+}

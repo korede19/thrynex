@@ -24,3 +24,17 @@
   line-height: 1.4;
   width: 80%;
 }
+@media screen and (max-width: 768px) {
+  .even {
+    width: 90%;
+    padding: 30px;
+    margin: 0px 20px;
+  }
+  .odd {
+    padding: 30px;
+    margin: 0px 0px 0px 20px;
+  }
+  .headText {
+    font-size: 20px;
+  }
+}

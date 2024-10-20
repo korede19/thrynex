@@ -4,6 +4,9 @@ import Location from "@/svg/location";
 import Mail from "@/svg/mail";
 import Phone from "@/svg/phone";
 import MapComponent from "../map";
+import Linkedin from "@/svg/linkedin";
+import Instagram from "@/svg/instagram";
+import Twitter from "@/svg/twitter";
 
 const Footer = () => {
   return (
@@ -43,6 +46,11 @@ const Footer = () => {
               <div>
                 <p>+358465356731</p>
               </div>
+            </div>
+            <div className={styles.socialIcons}>
+              <Linkedin />
+              <Instagram />
+              <Twitter />
             </div>
           </div>
           <div className={styles.contain2}>

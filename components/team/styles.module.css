@@ -64,3 +64,9 @@
   cursor: pointer;
   color: #222;
 }
+
+@media screen and (max-width: 768px) {
+  .pageContainer {
+    padding: 40px 20px 80px 20px;
+  }
+}

@@ -126,3 +126,28 @@
 .colCard3:hover .otherTexts {
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .pageContainer {
+    padding: 100px 20px;
+  }
+  .sectionContain {
+    flex-direction: column;
+  }
+  .colOne {
+    width: unset;
+  }
+  .colTwo {
+    width: unset;
+    height: 300px;
+  }
+  .colThree {
+    width: unset;
+  }
+  .colCard2 {
+    left: 0px;
+  }
+  .colCard3 {
+    right: 0px;
+  }
+}

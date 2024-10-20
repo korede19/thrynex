@@ -40,3 +40,11 @@
   font-size: 25px;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .Testimonials {
+    width: unset;
+    margin: 30px;
+    padding: 20px;
+  }
+}

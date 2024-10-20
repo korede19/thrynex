@@ -47,3 +47,25 @@
   line-height: 1;
   color: #222;
 }
+
+@media screen and (max-width: 768px) {
+  .pgContain {
+    width: unset;
+    padding: 60px 20px;
+    flex-direction: column;
+  }
+
+  .colOne {
+    width: unset;
+  }
+  .colTwo {
+    width: unset;
+  }
+  .colTwo h6 {
+    width: 14px;
+  }
+  .colTwo h2 {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+}
