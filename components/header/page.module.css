@@ -58,8 +58,6 @@
 .hasDropdown:hover .dropdown {
   display: block;
   opacity: 1;
-  transition: transform 1s ease-in-out;
-  transform: translateY(0);
 }
 
 .hasDropdown:hover .dropdownIcon svg {
@@ -79,13 +77,13 @@
   position: absolute;
   top: 100%;
   left: 0;
-  width: 340px;
+  width: 300px;
   background-color: #0c003a;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   z-index: 1000;
-  font-size: 12px;
+  font-size: 13px;
   opacity: 0;
   transform: translateY(-10px);
   transition: all 1s ease-in-out;
@@ -146,6 +144,15 @@
 @media (max-width: 768px) {
   .headerContain {
     padding: 15px 20px;
+  }
+
+  .link {
+    font-size: 16px;
+  }
+
+  .dropdownLink {
+    font-size: 15px;
+    padding: 15px 20px !important;
   }
 
   .headerLinks {
