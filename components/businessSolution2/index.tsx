@@ -1,10 +1,11 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
-import { Tabs, TabList, TabPanels, TabPanel } from "@chakra-ui/react";
+import { Tabs, TabPanels, TabPanel } from "@chakra-ui/react";
 import { tabsHeadThree, tabsPannelThree } from "@/utils/data";
 import TabSingle from "../tabsSingle";
 import CustomStyledTab from "@/styles/tabstyles";
+import StyledTabList2 from "@/styles/tablist2";
 
 const BusinessSolutions2 = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -43,18 +44,14 @@ const BusinessSolutions2 = () => {
           isLazy
           variant="enclosed"
         >
-          <TabList
-            gap="20px"
-            display="grid"
-            gridTemplateColumns="2fr 2fr 2fr 2fr 2fr 2fr 2fr"
-          >
+          <StyledTabList2>
             {tabsHeadThree?.map((items, index) => (
               <CustomStyledTab key={index}>
                 <div className={styles.iconBox}>{items.icon}</div>
                 <p className={styles.tabsText}>{items.title}</p>
               </CustomStyledTab>
             ))}
-          </TabList>
+          </StyledTabList2>
           <TabPanels>
             {tabsPannelThree?.map((items, index) => (
               <TabPanel

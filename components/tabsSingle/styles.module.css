@@ -48,3 +48,20 @@
   line-height: 1.7;
   color: #616161;
 }
+
+@media screen and (max-width: 768px) {
+  .even {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+  .odd {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+  .colOne {
+    width: unset;
+  }
+  .colTwo {
+    width: unset;
+  }
+}

@@ -6,3 +6,11 @@
   grid-template-columns: 2fr 2fr 2fr;
   gap: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .pgContain {
+    grid-template-columns: 2fr;
+    width: unset;
+    padding: 60px 20px;
+  }
+}

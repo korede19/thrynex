@@ -41,3 +41,32 @@
   font-size: 30px;
   line-height: 1.2;
 }
+
+@media screen and (max-width: 768px) {
+  .pgContain {
+    width: unset;
+    padding: 60px 20px;
+    flex-direction: column;
+  }
+  .colOne {
+    width: unset;
+  }
+  .colOne img {
+    width: 100%;
+    height: 100%;
+  }
+  .colTwo {
+    width: unset;
+  }
+  .colTwo h2 {
+    width: unset;
+    font-size: 30px;
+  }
+  .colTwo P {
+    width: unset;
+  }
+  .colTwo h3 {
+    width: unset;
+    font-size: 25px;
+  }
+}

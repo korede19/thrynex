@@ -45,3 +45,23 @@
   gap: 20px;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .pageContain {
+    width: unset;
+    padding: 50px 20px;
+    flex-direction: column;
+  }
+  .colOne {
+    width: unset;
+  }
+  .colTwo h2 {
+    font-size: 30px;
+  }
+  .colTwo p {
+    width: unset;
+  }
+  .colTwo {
+    width: unset;
+  }
+}

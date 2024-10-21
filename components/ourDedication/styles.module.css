@@ -53,3 +53,23 @@
   display: flex;
   gap: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .pgContain {
+    flex-direction: column;
+  }
+  .colOne {
+    width: unset;
+    height: 380px;
+  }
+  .colTwo {
+    width: unset;
+    padding: 60px 20px;
+  }
+  .colTwo h2 {
+    font-size: 30px;
+  }
+  .colTwo p {
+    width: unset;
+  }
+}

@@ -65,3 +65,23 @@
   transform: translateY(20%);
   opacity: 0;
 }
+@media screen and (max-width: 768px) {
+  .pgContain {
+    padding: 80px 20px;
+  }
+  .contain {
+    width: unset;
+  }
+  .contain h2 {
+    font-size: 30px;
+  }
+  .contain p {
+    width: unset;
+  }
+  .css-1whvz4d {
+    grid-template-columns: 2fr;
+  }
+  .allTabs {
+    width: unset;
+  }
+}

@@ -52,3 +52,25 @@
   width: 100%;
   height: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .pgContain {
+    padding: 80px 20px;
+    flex-direction: column-reverse;
+  }
+  .colOne {
+    width: unset;
+  }
+  .colTwo {
+    width: unset;
+  }
+  .texts h2 {
+    font-size: 30px !important;
+  }
+  .texts p {
+    width: unset;
+  }
+  .textContain {
+    width: unset;
+  }
+}

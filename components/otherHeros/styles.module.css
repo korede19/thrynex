@@ -33,3 +33,13 @@
   border-bottom: 1px solid #fff;
   transition: border-bottom 1s linear, color 1s ease;
 }
+
+@media screen and (max-width: 768px) {
+  .heroContain {
+    height: 400px;
+  }
+  .heroContain h1 {
+    font-size: 40px;
+    width: 80%;
+  }
+}

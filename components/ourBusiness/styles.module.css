@@ -20,6 +20,7 @@
 .textContain p {
   font-size: 16px;
   color: #616161;
+  line-height: 1.7;
 }
 
 .otherComponents {
@@ -67,4 +68,28 @@
   border-radius: 4px;
   background-color: #bc24f1;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .pgContain {
+    padding: 80px 20px;
+  }
+
+  .textContain {
+    width: unset;
+  }
+  .textContain h2 {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+  .otherComponents {
+    display: block;
+  }
+  .ourPossibilities {
+    width: unset;
+    padding: 50px 20px;
+  }
+  .ourPossibilities h2 {
+    font-size: 30px;
+  }
 }
