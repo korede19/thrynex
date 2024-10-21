@@ -60,3 +60,26 @@
 .icon {
   color: #064f7c;
 }
+
+@media screen and (max-width: 768px) {
+  .pgContain {
+    width: unset;
+    margin: 20px;
+    padding: 50px 20px;
+    flex-direction: column;
+  }
+  .colOne {
+    width: unset;
+  }
+  .colTwo {
+    width: unset;
+  }
+  .profileName {
+    left: 0;
+    padding: 30px;
+    text-align: center;
+  }
+  .profileName h2 {
+    font-size: 30px;
+  }
+}

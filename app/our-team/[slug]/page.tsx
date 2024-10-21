@@ -11,7 +11,6 @@ const page = ({ params }: { params: { slug: string } }) => {
   const data = ourTeams?.filter((item) => {
     return item.id === params.slug;
   });
-  console.log(data);
   return (
     <div>
       <Header />

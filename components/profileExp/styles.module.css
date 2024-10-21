@@ -16,3 +16,10 @@
   color: #616161;
   line-height: 1.6;
 }
+
+@media screen and (max-width: 768px) {
+  .pgContain {
+    width: unset;
+    padding: 20px;
+  }
+}
