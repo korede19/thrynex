@@ -108,4 +108,10 @@
   .swiper-button-next {
     display: none !important;
   }
+
+  .btnOne,
+  .btnTwo {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
 }

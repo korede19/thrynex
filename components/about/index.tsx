@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import { aboutThry } from "@/utils/data";
 import AboutSingle from "../aboutSingle";
 import Image from "next/image";
+import AnimatedComponent from "../animations";
 
 const AboutThrynex = () => {
   return (
@@ -33,13 +34,15 @@ const AboutThrynex = () => {
           <h3>Your Trusted Partner in Enterprise Digital Transformation.</h3>
         </div>
         <div className={styles.imageAll}>
-          <Image
-            src="/assets/new-1.png"
-            width={550}
-            height={550}
-            alt="image"
-            className={styles.imgTwo}
-          />
+          <AnimatedComponent animationType="bounce">
+            <Image
+              src="/assets/new-1.png"
+              width={550}
+              height={550}
+              alt="image"
+              className={styles.imgTwo}
+            />
+          </AnimatedComponent>
         </div>
       </div>
     </div>

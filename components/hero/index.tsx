@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 // Optional modules
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { slides } from "@/utils/data";
+import AnimatedComponent from "../animations";
 
 const Hero = () => {
   return (
@@ -34,11 +35,19 @@ const Hero = () => {
             }}
           >
             <div className={styles.innerContain}>
-              <p>{slide.text}</p>
-              <h1>{slide.title}</h1>
+              <AnimatedComponent animationType="slide-top">
+                <p>{slide.text}</p>
+              </AnimatedComponent>
+              <AnimatedComponent animationType="fade">
+                <h1>{slide.title}</h1>
+              </AnimatedComponent>
               <div className={styles.heroBtn}>
-                <button className={styles.btnOne}> LEARN MORE</button>
-                <button className={styles.btnTwo}> GET IN TOUCH</button>
+                <AnimatedComponent animationType="slide-left">
+                  <button className={styles.btnOne}> LEARN MORE</button>
+                </AnimatedComponent>
+                <AnimatedComponent animationType="slide-right">
+                  <button className={styles.btnTwo}> GET IN TOUCH</button>
+                </AnimatedComponent>
               </div>
             </div>
           </div>

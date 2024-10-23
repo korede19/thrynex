@@ -25,6 +25,7 @@
 
 .sectionContain {
   display: flex;
+  align-items: center;
 }
 
 .colOne {
@@ -36,10 +37,11 @@
 
 .colTwo {
   width: 40%;
-  background-image: url("../../public/assets/tri-2.png");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+}
+
+.middleImg {
+  width: 100%;
+  height: 100%;
 }
 
 .colCard {

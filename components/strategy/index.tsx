@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./styles.module.css";
 import { ourStrategy, ourStrategy2 } from "@/utils/data";
+import AnimatedComponent from "../animations";
+import Image from "next/image";
 
 const Strategy = () => {
   return (
@@ -13,33 +15,46 @@ const Strategy = () => {
         <div className={styles.colOne}>
           {ourStrategy?.map((item, index) => {
             return (
-              <div
-                className={index % 2 === 0 ? styles.colCard : styles.colCard2}
-                key={index}
-              >
-                {item.icon}
-                <div className={styles.otherTexts}>
-                  <h3>{item.title}</h3>
-                  <p>{item.text}</p>
+              <AnimatedComponent key={index} animationType="slide-left">
+                <div
+                  className={index % 2 === 0 ? styles.colCard : styles.colCard2}
+                >
+                  {item.icon}
+                  <div className={styles.otherTexts}>
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </div>
                 </div>
-              </div>
+              </AnimatedComponent>
             );
           })}
         </div>
-        <div className={styles.colTwo}></div>
+        <div className={styles.colTwo}>
+          <AnimatedComponent animationType="zoom-in">
+            <Image
+              src="/assets/tri-2.png"
+              width={500}
+              height={500}
+              alt="img"
+              className={styles.middleImg}
+            />
+          </AnimatedComponent>
+        </div>
         <div className={styles.colThree}>
           {ourStrategy2?.map((item, index) => {
             return (
-              <div
-                className={index % 2 === 0 ? styles.colCard : styles.colCard3}
-                key={index}
-              >
-                {item.icon}
-                <div className={styles.otherTexts}>
-                  <h3>{item.title}</h3>
-                  <p>{item.text}</p>
+              <AnimatedComponent key={index} animationType="slide-right">
+                <div
+                  className={index % 2 === 0 ? styles.colCard : styles.colCard3}
+                  key={index}
+                >
+                  {item.icon}
+                  <div className={styles.otherTexts}>
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </div>
                 </div>
-              </div>
+              </AnimatedComponent>
             );
           })}
         </div>

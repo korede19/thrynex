@@ -1,10 +1,11 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
-import { Tabs, TabList, TabPanels, TabPanel } from "@chakra-ui/react";
+import { Tabs, TabPanels, TabPanel } from "@chakra-ui/react";
 import { tabsHeadTwo, tabsPannelTwo } from "@/utils/data";
 import TabSingle from "../tabsSingle";
 import CustomStyledTab from "@/styles/tabstyles";
+import StyledTabList from "@/styles/tablist";
 
 const EmpowermentStrategy = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -44,18 +45,14 @@ const EmpowermentStrategy = () => {
           isLazy
           variant="enclosed"
         >
-          <TabList
-            gap="20px"
-            display="grid"
-            gridTemplateColumns="2fr 2fr 2fr 2fr 2fr 2fr"
-          >
+          <StyledTabList>
             {tabsHeadTwo?.map((items, index) => (
               <CustomStyledTab key={index}>
                 <div className={styles.iconBox}>{items.icon}</div>
                 <p className={styles.tabsText}>{items.title}</p>
               </CustomStyledTab>
             ))}
-          </TabList>
+          </StyledTabList>
           <TabPanels>
             {tabsPannelTwo?.map((items, index) => (
               <TabPanel

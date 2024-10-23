@@ -2,19 +2,22 @@ import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
 import Loader from "../loader";
+import AnimatedComponent from "../animations";
 
 const Vision = () => {
   return (
     <div className={styles.pgContain}>
       <div className={styles.colOne}>
-        <Image
-          src="/assets/plan.png"
-          width={500}
-          height={500}
-          alt="image"
-          priority
-          className={styles.image}
-        />
+        <AnimatedComponent animationType="bounce">
+          <Image
+            src="/assets/plan.png"
+            width={500}
+            height={500}
+            alt="image"
+            priority
+            className={styles.image}
+          />
+        </AnimatedComponent>
       </div>
       <div className={styles.colTwo}>
         <h6>_OUR VISION_</h6>
