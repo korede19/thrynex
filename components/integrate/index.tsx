@@ -42,7 +42,13 @@ const Integrate = () => {
       </div>
       <div className={styles.colTwo}>
         <AnimatedComponent animationType="bounce">
-          <Image src="/assets/layers.png" width={600} height={500} alt="img" />
+          <Image
+            src="/assets/layers.png"
+            width={600}
+            height={500}
+            alt="img"
+            className={styles.imgConst}
+          />
         </AnimatedComponent>
       </div>
     </div>
