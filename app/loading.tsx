@@ -1,9 +1,16 @@
+"use client";
 import React from "react";
+import { InfinitySpin } from "react-loader-spinner";
 
 const Loading = () => {
   return (
-    <div>
-      <h3>Loading...</h3>
+    <div className="loader">
+      <InfinitySpin
+        visible={true}
+        width="800"
+        color="#ffffff"
+        ariaLabel="infinity-spin-loading"
+      />
     </div>
   );
 };

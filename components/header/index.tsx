@@ -10,14 +10,9 @@ import Close from "@/svg/close";
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [openSubMenu, setOpenSubMenu] = useState<number | null>(null); // To track the open submenu
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
-  };
-
-  const toggleSubMenu = (index: number) => {
-    setOpenSubMenu(openSubMenu === index ? null : index);
   };
 
   return (
@@ -46,18 +41,7 @@ const Header = () => {
                 item.subLinks ? styles.hasDropdown : ""
               }`}
             >
-              <Link
-                href={item.link}
-                className={styles.link}
-                onClick={
-                  item.subLinks
-                    ? (e) => {
-                        e.preventDefault();
-                        toggleSubMenu(index);
-                      }
-                    : toggleSidebar
-                }
-              >
+              <Link href={item.link} className={styles.link}>
                 {item.title}
                 {item.subLinks && (
                   <span className={styles.dropdownIcon}>
@@ -65,14 +49,14 @@ const Header = () => {
                   </span>
                 )}
               </Link>
-              {item.subLinks && openSubMenu === index && (
+              {item.subLinks && (
                 <div className={styles.dropdown}>
                   {item.subLinks.map((subLink, subIndex) => (
                     <Link
                       key={subIndex}
                       href={subLink.link}
                       className={styles.dropdownLink}
-                      onClick={toggleSidebar} // Optionally close sidebar on submenu link click
+                      onClick={toggleSidebar}
                     >
                       {subLink.title}
                     </Link>

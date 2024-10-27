@@ -13,3 +13,12 @@ h4,
 h5 {
   font-family: "Amiri", system-ui;
 }
+
+.loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #0c003a;
+  justify-content: center;
+}
