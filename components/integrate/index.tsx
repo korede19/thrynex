@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import Loader from "../loader";
 import Image from "next/image";
+import AnimatedComponent from "../animations";
 
 const Integrate = () => {
   return (
@@ -40,7 +41,9 @@ const Integrate = () => {
         </div>
       </div>
       <div className={styles.colTwo}>
-        <Image src="/assets/layers.png" width={600} height={500} alt="img" />
+        <AnimatedComponent animationType="bounce">
+          <Image src="/assets/layers.png" width={600} height={500} alt="img" />
+        </AnimatedComponent>
       </div>
     </div>
   );

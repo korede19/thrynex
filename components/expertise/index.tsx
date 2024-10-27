@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
+import AnimatedComponent from "../animations";
 
 const Expertise = () => {
   return (
@@ -18,7 +19,14 @@ const Expertise = () => {
         </p>
       </div>
       <div className={styles.colTwo}>
-        <Image src="/assets/EXPERTS.png" width={500} height={500} alt="image" />
+        <AnimatedComponent animationType="slide-bottom">
+          <Image
+            src="/assets/EXPERTS.png"
+            width={500}
+            height={500}
+            alt="image"
+          />
+        </AnimatedComponent>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Link from "next/link";
+import AnimatedComponent from "../animations";
 
 const OtherHeros = ({ title, image }: { title: string; image: string }) => {
   return (
@@ -10,7 +11,9 @@ const OtherHeros = ({ title, image }: { title: string; image: string }) => {
       }}
       className={styles.heroContain}
     >
-      <h1>{title}</h1>
+      <AnimatedComponent animationType="slide-top">
+        <h1 className={styles.titleText}>{title}</h1>
+      </AnimatedComponent>
       <p>
         <Link href="/">Home</Link> / {title}
       </p>

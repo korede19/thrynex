@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
+import AnimatedComponent from "../animations";
 
 const Navigate = () => {
   return (
@@ -17,12 +18,14 @@ const Navigate = () => {
         </p>
       </div>
       <div className={styles.colTwo}>
-        <Image
-          src="/assets/business.png"
-          width={500}
-          height={500}
-          alt="image"
-        />
+        <AnimatedComponent animationType="slide-bottom">
+          <Image
+            src="/assets/business.png"
+            width={500}
+            height={500}
+            alt="image"
+          />
+        </AnimatedComponent>
       </div>
     </div>
   );

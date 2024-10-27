@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import Mission from "../mission";
 import Counter from "../counter";
+import AnimatedComponent from "../animations";
 
 const OurBusiness = ({
   titleOne,
@@ -27,12 +28,14 @@ const OurBusiness = ({
         <Mission />
         <Counter />
       </div>
-      <div className={styles.ourPossibilities}>
-        <h6>{titleOne}</h6>
-        <h2>{titleTwo}</h2>
-        <p>{text}</p>
-        <button>Book A Call Now!</button>
-      </div>
+      <AnimatedComponent animationType="slide-bottom">
+        <div className={styles.ourPossibilities}>
+          <h6>{titleOne}</h6>
+          <h2>{titleTwo}</h2>
+          <p>{text}</p>
+          <button>Book A Call Now!</button>
+        </div>
+      </AnimatedComponent>
     </div>
   );
 };

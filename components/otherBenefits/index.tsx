@@ -2,17 +2,20 @@ import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
 import { someBenefits } from "@/utils/data";
+import AnimatedComponent from "../animations";
 
 const OtherBenefits = () => {
   return (
     <div className={styles.pageContain}>
       <div className={styles.colOne}>
-        <Image
-          src="/assets/Empower-Us.png"
-          width={500}
-          height={500}
-          alt="image"
-        />
+        <AnimatedComponent animationType="slide-bottom">
+          <Image
+            src="/assets/Empower-Us.png"
+            width={500}
+            height={500}
+            alt="image"
+          />
+        </AnimatedComponent>
       </div>
       <div className={styles.colTwo}>
         <h6>_OUR BENEFITS_</h6>

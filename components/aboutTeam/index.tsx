@@ -1,17 +1,20 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
+import AnimatedComponent from "../animations";
 
 const AboutTeam = () => {
   return (
     <div className={styles.pgContain}>
       <div className={styles.colOne}>
-        <Image
-          src="/assets/Team-section.png"
-          width={500}
-          height={500}
-          alt="image"
-        />
+        <AnimatedComponent animationType="zoom-in">
+          <Image
+            src="/assets/Team-section.png"
+            width={500}
+            height={500}
+            alt="image"
+          />
+        </AnimatedComponent>
       </div>
       <div className={styles.colTwo}>
         <div className={styles.texts}>

@@ -15,7 +15,7 @@ const Strategy = () => {
         <div className={styles.colOne}>
           {ourStrategy?.map((item, index) => {
             return (
-              <AnimatedComponent key={index} animationType="slide-left">
+              <AnimatedComponent key={index} animationType="slide-bottom">
                 <div
                   className={index % 2 === 0 ? styles.colCard : styles.colCard2}
                 >
@@ -43,7 +43,7 @@ const Strategy = () => {
         <div className={styles.colThree}>
           {ourStrategy2?.map((item, index) => {
             return (
-              <AnimatedComponent key={index} animationType="slide-right">
+              <AnimatedComponent key={index} animationType="slide-bottom">
                 <div
                   className={index % 2 === 0 ? styles.colCard : styles.colCard3}
                   key={index}

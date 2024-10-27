@@ -33,11 +33,11 @@ const AnimatedComponent: React.FC<AnimatedComponentProps> = ({
       animate: { opacity: 1 },
     },
     "slide-left": {
-      initial: { opacity: 0, x: "-20px" },
+      initial: { opacity: 0, x: "-100%" },
       animate: { opacity: 1, x: 0 },
     },
     "slide-right": {
-      initial: { opacity: 0, x: "20px" },
+      initial: { opacity: 0, x: "100%" },
       animate: { opacity: 1, x: 0 },
     },
     "slide-top": {

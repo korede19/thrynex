@@ -1,12 +1,15 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
+import AnimatedComponent from "../animations";
 
 const Partners = () => {
   return (
     <div className={styles.pgContain}>
       <div className={styles.colOne}>
-        <Image src="/assets/about.png" width={500} height={500} alt="image" />
+        <AnimatedComponent animationType="fade">
+          <Image src="/assets/about.png" width={500} height={500} alt="image" />
+        </AnimatedComponent>
       </div>
       <div className={styles.colTwo}>
         <h6>_ABOUT THRYNEX_</h6>

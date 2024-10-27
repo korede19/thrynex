@@ -3,18 +3,21 @@ import styles from "./styles.module.css";
 import { contactText } from "@/utils/data";
 import Image from "next/image";
 import ContactForm from "../contactForm";
+import AnimatedComponent from "../animations";
 
 const Contact = () => {
   return (
     <div className={styles.container}>
       <div className={styles.pgContain}>
         <div className={styles.colOne}>
-          <Image
-            src="/assets/contact.png"
-            width={500}
-            height={500}
-            alt="contactImg"
-          />
+          <AnimatedComponent animationType="fade">
+            <Image
+              src="/assets/contact.png"
+              width={500}
+              height={500}
+              alt="contactImg"
+            />
+          </AnimatedComponent>
         </div>
         <div className={styles.colTwo}>
           <div className={styles.textContain}>
@@ -43,7 +46,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <ContactForm />
+      <AnimatedComponent animationType="zoom-in">
+        <ContactForm />
+      </AnimatedComponent>
     </div>
   );
 };
