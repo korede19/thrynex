@@ -22,7 +22,7 @@ const Preloader: React.FC<PreloaderProps> = ({ children }) => {
     return (
       <div className={styles.loaderContain}>
         <InfinitySpin width="200" color="#ffffff" />
-        <p>loading...</p>
+        <p>Loading...</p>
       </div>
     );
   }

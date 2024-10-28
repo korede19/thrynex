@@ -15,6 +15,7 @@ const AboutThrynex = () => {
               key={index}
               title={item.title}
               icon={item.icon}
+              link={item.link}
               index={index}
             />
           );

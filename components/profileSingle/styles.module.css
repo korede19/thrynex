@@ -29,14 +29,15 @@
 .profileName {
   background-color: #0c003a;
   color: #fff;
-  padding: 30px 30px 30px 90px;
+  padding: 25px 30px 25px 90px;
   border-radius: 10px;
   position: relative;
+  top: 10px;
   left: -60px;
 }
 
 .profileName h2 {
-  font-size: 35px;
+  font-size: 30px;
   line-height: 1.2;
 }
 

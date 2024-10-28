@@ -15,7 +15,6 @@ const Hero = () => {
   return (
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
-      navigation
       pagination={{ clickable: true }}
       spaceBetween={0}
       slidesPerView={1}

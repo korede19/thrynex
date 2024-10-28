@@ -33,7 +33,7 @@ export const menuLinks = [
     link: "#",
     subLinks: [
       {
-        title: "BUSSINESS CONSULTATION SERVICES",
+        title: "BUSINESS CONSULTATION SERVICES",
         link: "/business-consultation-services",
       },
       {
@@ -69,7 +69,7 @@ export const slides = [
   {
     image: "/assets/Home-banner-2.png",
     text: "Business Partnership",
-    title: "We partner with your Business for Growth and Success",
+    title: "We Partner with your Business for Growth and Success",
   },
   {
     image: "/assets/home-Banner1.png",
@@ -82,16 +82,19 @@ export const aboutThry = [
   {
     title: "Advanced Business Digital Solution Service",
     icon: <Arrow />,
+    link: "/business-digital-solutions",
   },
 
   {
     title: "Business Empowerment and Partnerships",
     icon: <Arrow />,
+    link: "/business-empowerment-partnership",
   },
 
   {
     title: "Business Consultation Services",
     icon: <Arrow />,
+    link: "business-consultation-services",
   },
 ];
 
@@ -412,19 +415,19 @@ export const cards2 = [
     icon: <Digital />,
     title: "Our Mission",
     text: "To partner with businesses to identify and address their unique challenges and opportunities, delivering tailored digital solutions and strategic consulting expertise to drive growth, innovation, and market leadership.",
-    background: "/assets/001.webp",
+    background: "/assets/Mission001.webp",
   },
   {
     icon: <Puzzle />,
     title: "Our Vision",
     text: "To be a leading global provider of bespoke digital solutions and premium business consulting services, empowering organizations to achieve sustainable growth, innovation, and competitive advantage.",
-    background: "/assets/003.webp",
+    background: "/assets/Vision001.webp",
   },
   {
     icon: <Values />,
     title: "Our Values",
     text: "We believe in the transformative power of innovation, collaboration, and trust to propel businesses forward.",
-    background: "/assets/002.webp",
+    background: "/assets/Values001.webp",
   },
 ];
 

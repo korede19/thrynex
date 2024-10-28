@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  height: 100%;
 }
 
 .odd {
@@ -16,14 +17,20 @@
   justify-content: space-between;
   gap: 20px;
   padding: 40px;
+  height: 100%;
 }
 
 .headText {
   font-size: 30px;
   font-weight: 700;
   line-height: 1.4;
-  width: 80%;
+  width: 70%;
 }
+
+.link {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
   .even {
     width: 90%;

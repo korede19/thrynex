@@ -2,9 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 80px;
+  padding: 20px 80px;
   background-color: #0c003a;
   color: #fff;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
 }
 
 .logo img {
@@ -76,7 +79,7 @@
   position: absolute;
   top: 100%;
   left: 0;
-  width: 300px;
+  width: 340px;
   background-color: #0c003a;
   padding: 0.5rem 1rem;
   border-radius: 5px;
