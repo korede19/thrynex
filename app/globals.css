@@ -21,4 +21,9 @@ h5 {
   align-items: center;
   background-color: #0c003a;
   justify-content: center;
+  flex-direction: column;
+}
+
+.loader p {
+  color: #fff;
 }

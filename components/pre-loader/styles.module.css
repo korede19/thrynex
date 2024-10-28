@@ -1,0 +1,14 @@
+.loaderContain {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0c003a;
+  justify-content: center;
+  transition: background 1s ease-in-out;
+}
+
+.loaderContain p {
+  color: #fff;
+}
