@@ -27,3 +27,12 @@ h5 {
 .loader p {
   color: #fff;
 }
+
+.iconLink {
+  color: #fff;
+}
+
+.iconLink:hover {
+  color: #bc24f1;
+  transition: all 0.5s ease-in-out;
+}

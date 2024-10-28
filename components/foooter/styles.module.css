@@ -26,7 +26,13 @@
   font-size: 12px;
   color: #fff;
   border: 0px;
+  cursor: pointer;
   border-radius: 4px;
+}
+
+.tabOne button > a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .tabTwo {
@@ -65,6 +71,16 @@
   gap: 20px;
   color: #ccc;
 }
+
+.contain2 p > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contain2 p > a:hover {
+  color: #bc24f1;
+  transition: all 0.5s ease-in-out;
+}
 .contain3 {
   width: 50%;
 }
@@ -79,7 +95,7 @@
 .socialIcons {
   color: #fff;
   display: flex;
-  gap: 10px;
+  gap: 30px;
 }
 
 @media screen and (max-width: 768px) {

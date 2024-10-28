@@ -6,6 +6,7 @@ import Phone from "@/svg/phone";
 import MapComponent from "../map";
 import Linkedin from "@/svg/linkedin";
 import Instagram from "@/svg/instagram";
+import Link from "next/link";
 import Twitter from "@/svg/twitter";
 
 const Footer = () => {
@@ -14,7 +15,9 @@ const Footer = () => {
       <div className={styles.footerContainer}>
         <div className={styles.tabOne}>
           <h2>Start Your Journey to Better Business</h2>
-          <button>GET IN TOUCH</button>
+          <button>
+            <Link href="/contact">GET IN TOUCH</Link>
+          </button>
         </div>
         <div className={styles.tabTwo}>
           <div className={styles.contain}>
@@ -54,9 +57,21 @@ const Footer = () => {
             </div>
           </div>
           <div className={styles.contain2}>
-            <p>Business Consultation Services</p>
-            <p>Business Empowerment & Partnership</p>
-            <p>Partnership Advanced Business Digital Solutions</p>
+            <p>
+              <Link href="/business-consultation-services">
+                Business Consultation Services
+              </Link>
+            </p>
+            <p>
+              <Link href="/business-empowerment-partnership">
+                Business Empowerment & Partnership
+              </Link>
+            </p>
+            <p>
+              <Link href="business-digital-solutions">
+                Partnership Advanced Business Digital Solutions
+              </Link>
+            </p>
           </div>
           <div className={styles.contain3}>
             <MapComponent />

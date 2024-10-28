@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Mission from "../mission";
-import Counter from "../counter";
 import AnimatedComponent from "../animations";
+import CounterTwo from "../counter2";
+import Link from "next/link";
 
 const OurBusiness = ({
   titleOne,
@@ -26,14 +27,20 @@ const OurBusiness = ({
       </div>
       <div className={styles.otherComponents}>
         <Mission />
-        <Counter />
+        <CounterTwo />
       </div>
       <AnimatedComponent animationType="slide-bottom">
         <div className={styles.ourPossibilities}>
           <h6>{titleOne}</h6>
           <h2>{titleTwo}</h2>
           <p>{text}</p>
-          <button>Book A Call Now!</button>
+
+          <Link
+            href="https://calendly.com/thrynex/consultation?month=2024-10"
+            target="_blank"
+          >
+            <button className={styles.BtnContain}>Book A Call Now!</button>
+          </Link>
         </div>
       </AnimatedComponent>
     </div>

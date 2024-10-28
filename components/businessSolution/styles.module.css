@@ -10,7 +10,7 @@
 
 .contain {
   margin: auto;
-  width: 70%;
+  width: 80%;
   text-align: center;
   line-height: 1;
   display: flex;
@@ -34,7 +34,7 @@
 }
 
 .allTabs {
-  width: 60%;
+  width: 65%;
   margin: auto;
 }
 

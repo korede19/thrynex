@@ -1,12 +1,17 @@
 import React from "react";
+import Link from "next/link";
 
 const Instagram = () => {
   return (
-    <div>
+    <Link
+      href="https://www.instagram.com/thrynex/?igsh=cnk2emFiamYyMGVo"
+      target="_blank"
+      className="iconLink"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="2em"
-        height="2em"
+        width="1.5em"
+        height="1.5em"
         viewBox="0 0 24 24"
       >
         <g fill="none" stroke="currentColor" strokeWidth={0.85}>
@@ -23,7 +28,7 @@ const Instagram = () => {
           ></path>
         </g>
       </svg>
-    </div>
+    </Link>
   );
 };
 

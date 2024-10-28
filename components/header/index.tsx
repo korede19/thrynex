@@ -69,7 +69,14 @@ const Header = () => {
       </div>
       {/* Header button and mobile toggle button */}
       <div className={styles.headerBtn}>
-        <button>BOOK A CALL</button>
+        <button>
+          <Link
+            href="https://calendly.com/thrynex/consultation?month=2024-10"
+            target="_blank"
+          >
+            BOOK A CALL
+          </Link>
+        </button>
       </div>
       <div className={styles.menuToggle} onClick={toggleSidebar}>
         <Menu />

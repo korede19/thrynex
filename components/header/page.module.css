@@ -137,7 +137,17 @@
 .headerBtn button:hover {
   background-color: #bc24f1;
   color: #fff;
-  transition: background 0.5s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+.headerBtn button > a {
+  color: #bc24f1;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.headerBtn:hover button > a {
+  color: #fff;
 }
 
 .closeSidebar,

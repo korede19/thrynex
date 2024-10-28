@@ -57,10 +57,10 @@
   line-height: 1.7;
 }
 
-.ourPossibilities button {
+.BtnContain {
   width: 180px;
   margin: auto;
-  border: 0px;
+  border: 1px solid #bc24f1;
   padding: 15px 30px;
   color: #fff;
   font-family: unset;
@@ -68,6 +68,16 @@
   border-radius: 4px;
   background-color: #bc24f1;
   cursor: pointer;
+}
+
+.BtnContain:hover {
+  background-color: transparent;
+  border: 1px solid #bc24f1;
+}
+
+.ourPossibilities a {
+  text-decoration: none;
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {

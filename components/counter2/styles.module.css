@@ -1,0 +1,48 @@
+.pgContain {
+  position: relative;
+  top: -40px;
+  width: 70%;
+  margin: auto;
+  padding: 40px;
+  background-color: transparent;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  border-radius: 10px;
+}
+
+.textcontain {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.textcontain h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #bc24f1;
+  line-height: 1;
+}
+
+.textcontain p {
+  font-size: 14px;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  color: #222;
+}
+
+@media screen and (max-width: 768px) {
+  .pgContain {
+    width: unset;
+    margin: 20px;
+    grid-template-columns: 2fr;
+  }
+  .textcontain {
+    margin: 20px;
+  }
+}
