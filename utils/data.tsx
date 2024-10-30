@@ -754,7 +754,7 @@ export const tabsPannelThree = [
       "Whether it’s streamlining your supply chain, optimizing resource allocation, or identifying your most profitable customer segments, we deliver data-driven recommendations that fuel growth and innovation. And because we believe in transparency, we’ll guide you through every step of the process, ensuring you understand the “why” behind every decision you make. ",
   },
   {
-    image: "/assets/businessConsulting.webp",
+    image: "/assets/Cybersecurity.webp",
     title: "Cybersecurity Guard: Shielding Your Digital World",
     text: "Fortify your digital treasures with our robust cybersecurity solutions. We’re not just tech wizards, we’re trusted partners. We tailor our solutions to your unique needs, constantly monitoring your systems, staying ahead of evolving threats, and keeping you informed every step of the way. With our proactive approach and around-the-clock vigilance, you can focus on what you do best, leaving the digital defense to us. ",
     text2: "",

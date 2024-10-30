@@ -91,6 +91,7 @@
   transform: translateY(-10px);
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out,
     visibility 0.3s;
+  display: none;
 }
 
 .hasDropdown:hover .dropdown {
@@ -170,6 +171,10 @@
     font-size: 16px;
   }
 
+  .link::before {
+    display: none;
+  }
+
   .dropdownLink {
     font-size: 15px;
     padding: 15px 20px !important;
@@ -212,11 +217,12 @@
   }
 
   .dropdown {
-    display: block;
     position: relative;
-    background-color: transparent;
+    width: 100%;
     padding: 0;
+    background-color: transparent;
     box-shadow: none;
+    display: none;
   }
 
   .dropdownLink {

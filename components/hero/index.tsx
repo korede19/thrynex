@@ -6,16 +6,20 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-// Optional modules
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { slides } from "@/utils/data";
 import AnimatedComponent from "../animations";
+import { StyledNavigationButton } from "@/styles/navButtons";
 
 const Hero = () => {
   return (
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
       pagination={{ clickable: true }}
+      navigation={{
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      }}
       spaceBetween={0}
       slidesPerView={1}
       autoplay={{
@@ -52,6 +56,11 @@ const Hero = () => {
           </div>
         </SwiperSlide>
       ))}
+      <StyledNavigationButton className="swiper-button-prev"></StyledNavigationButton>
+      <StyledNavigationButton
+        className="swiper-button-next"
+        isNext
+      ></StyledNavigationButton>
     </Swiper>
   );
 };

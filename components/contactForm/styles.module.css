@@ -65,3 +65,11 @@
   border: 0px;
   border-radius: 4px;
 }
+
+@media screen and (max-width: 768px) {
+  .formContain {
+    width: unset;
+    margin: 20px 20px 50px 20px;
+    padding: 20px;
+  }
+}

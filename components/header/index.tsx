@@ -18,7 +18,9 @@ const Header = () => {
   return (
     <div className={styles.headerContain}>
       <div className={styles.logo}>
-        <Image src="/assets/Logo.png" alt="logo" width={100} height={30} />
+        <Link href="/">
+          <Image src="/assets/Logo.png" alt="logo" width={100} height={30} />
+        </Link>
       </div>
 
       {/* Sidebar for mobile view */}

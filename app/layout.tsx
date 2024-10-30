@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import Preloader from "@/components/pre-loader";
-import Head from "next/head"; // Import Head for dynamic head content
+import Head from "next/head";
 import "./globals.css";
 
 const inter = Nunito({ subsets: ["latin"] });
@@ -22,7 +22,7 @@ export default function RootLayout({
       <Head>
         <link rel="preload" href="/assets/home-Banner1.png" as="image" />
         <link rel="preload" href="/assets/Home-banner-2.png" as="image" />
-        <link rel="preload" href="/assets/Home-banner3.png" as="image" />
+        <link rel="preload" href="/assets/Home-Banner3.png" as="image" />
       </Head>
       <body className={inter.className}>
         <Preloader>{children}</Preloader>
