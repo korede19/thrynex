@@ -66,6 +66,10 @@
   border-radius: 4px;
 }
 
+.Contain > div {
+  width: 50%;
+}
+
 @media screen and (max-width: 768px) {
   .formContain {
     width: unset;

@@ -16,6 +16,7 @@ const Contact = () => {
               width={500}
               height={500}
               alt="contactImg"
+              priority
             />
           </AnimatedComponent>
         </div>

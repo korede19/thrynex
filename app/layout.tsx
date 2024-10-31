@@ -3,6 +3,8 @@ import { Nunito } from "next/font/google";
 import Preloader from "@/components/pre-loader";
 import Head from "next/head";
 import "./globals.css";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const inter = Nunito({ subsets: ["latin"] });
 
@@ -25,6 +27,7 @@ export default function RootLayout({
         <link rel="preload" href="/assets/Home-Banner3.png" as="image" />
       </Head>
       <body className={inter.className}>
+        <ToastContainer />
         <Preloader>{children}</Preloader>
       </body>
     </html>
